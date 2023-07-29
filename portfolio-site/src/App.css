@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+  background-color:#322358;
+  color: white;
+}
+
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  height: 100px;
+  background-color: #8062D6;
+  color: white;
+}
+
+.nav-header{
+  width: 60%;
+}
+
+.nav-links{
+
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+
+.nav-linkss{
+text-decoration: none;
+color: white;
+}
+
+.about{
+  padding: 40px;
+  width: 40%;
+  color: white;
+}
+.name{
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.resume{
+  background-color: white;
+  border: 1px solid white;
+  color:#322653;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.btn{
+  background-color: white;
+  border: 1px solid white;
+  color:#322653;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.head{
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.desc{
+  margin-bottom: 30px;
+  line-height: 30px
+}
+
+.tech-header{
+  color: white;
+  text-align: center;
+  
+}
+
+.tech-container{
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  flex-wrap: wrap; /* To wrap the tech skill items if they exceed the container width */
+  padding: 40px;
+  max-width: 100%;
+}
+.techskills{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  margin: 0 auto;
+  justify-content: center;
+
+  max-width: 100%;
+}
+.tech-img{
+  max-width: 100%;
+  
+}
+
+.tech-name{
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tech-name-react{
+  color: white;
+  margin-left: 100px;
+}
+
+#tech-img-react{
+  max-width: 100%;
+  width: 245px;
+}
+
+.projects{
+  padding: 40px;
+}
+
+.para{
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.para-title{
+  font-weight: bold;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+
+.project{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-display{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.project-img{
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  
+}
+
+.project-card{
+  width: 50%;
+  height: 350px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #8062D6;
+  color: #110c1e;
+
+}
+
+#contact{
+  background-color: #8062D6;
+}
+
+.email{
+  
+ max-width: 100%;
+ width: 30px;
+ margin-left: 80px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span{
+  margin-left: 10px;
+}
