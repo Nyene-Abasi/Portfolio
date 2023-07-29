@@ -18,7 +18,7 @@
   justify-content: space-between;
   padding: 40px;
   height: 100px;
-  background-color: #8062D6;
+  background-color: #5b449b;
   color: white;
 }
 
@@ -93,10 +93,12 @@ color: white;
   
 }
 
+
+
 .tech-container{
   display: flex;
-  justify-content: center; /* Center the items horizontally */
-  flex-wrap: wrap; /* To wrap the tech skill items if they exceed the container width */
+  justify-content: center; 
+  flex-wrap: wrap; 
   padding: 40px;
   max-width: 100%;
 }
@@ -173,13 +175,13 @@ color: white;
   height: 350px;
   border: 1px solid white;
   border-radius: 10px;
-  background-color: #8062D6;
+  background-color: #5b449b;
   color: #110c1e;
 
 }
 
 #contact{
-  background-color: #8062D6;
+  background-color: #5b449b;
 }
 
 .email{

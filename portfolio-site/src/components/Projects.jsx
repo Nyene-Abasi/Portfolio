@@ -20,14 +20,14 @@ const Projects = () => {
             <img src={ncnews} alt="" className='project-img'/>
             <p className='para-title'>Backend Project</p>
             <p className='para'>A news blog where you find engaging articles to stay keep you updated</p>
-            <button className='btn'>See here</button>
+            <a href="https://nc-news-db.onrender.com/api"><button className='btn'>See Here</button></a>
             </div>
 
             <div className='project-card'>
             <img src={Portfolio} alt="" className='project-img'/>
             <p className='para-title'>Portfolio</p>
             <p className='para'>A Portfolio designed with react and css used to showcase my skills and project</p>
-            <button className='btn'>See Here</button>
+            <a href=""><button className='btn'>See Here</button></a>
             </div>
 
         </div>
