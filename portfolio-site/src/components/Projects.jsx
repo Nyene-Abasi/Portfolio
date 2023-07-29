@@ -11,15 +11,15 @@ const Projects = () => {
         <div className='project-display'>
             <div className='project-card'>
             <img src={ProjectImage1} alt="" className='project-img' />
-            <p className='para-title'>NC-News</p>
+            <p className='para-title'>Frontend project NC-News</p>
             <p className='para'>A news blog where you find engaging articles to stay keep you updated</p>
-            <button className='btn'>See Here</button>
+            <a href="https://nyene-ncnews.netlify.app/"><button className='btn'>See Here</button></a>
             </div>
 
             <div className='project-card'>
             <img src={ncnews} alt="" className='project-img'/>
-            <p className='para-title'>Backend Project</p>
-            <p className='para'>A news blog where you find engaging articles to stay keep you updated</p>
+            <p className='para-title'>Backend Project NC-News api</p>
+            <p className='para'>A news blog where you find engaging articles to keep you updated</p>
             <a href="https://nc-news-db.onrender.com/api"><button className='btn'>See Here</button></a>
             </div>
 
